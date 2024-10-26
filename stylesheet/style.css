@@ -1,0 +1,175 @@
+body {
+  background: rgb(27, 28, 29);
+  width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.landingpage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: linear-gradient(90deg, rgb(19, 47, 75) 0%, rgb(15, 39, 63) 20%, rgb(6, 21, 36) 100%);
+}
+.landingpage .navbar {
+  z-index: 2;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.landingpage .navbar .nav-content {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: space-around;
+}
+.landingpage .navbar .nav-content li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+.landingpage .navbar .nav-content li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.03cm;
+}
+.landingpage .background-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 2%;
+  left: 0;
+  z-index: 0;
+}
+.landingpage .background-img img {
+  width: 67%;
+}
+.landingpage .vector-img {
+  width: 60%;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 10%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.landingpage .vector-img img {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  margin-right: -10%;
+}
+.landingpage .content {
+  display: flex;
+  width: 100%;
+  position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: translateY(0%);
+}
+.landingpage .content h1 {
+  font-size: 3em;
+  color: white;
+  font-family: "Sacramento", cursive;
+  transform: rotate(-5deg) translateY(-200%);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03cm;
+  width: 50%;
+  text-align: center;
+  font-weight: bolder;
+  justify-content: center;
+}
+.landingpage .content h1 .img1 {
+  position: absolute;
+  width: 0.7rem;
+  top: 29.5%;
+  margin-right: 14%;
+}
+.landingpage .content h1 .img2 {
+  position: absolute;
+  width: 0.7rem;
+  top: 29.5%;
+  margin-left: 18.8%;
+}
+.landingpage .content span {
+  font-size: 4rem;
+  width: 7rem;
+  display: flex;
+  height: 7rem;
+  border-radius: 60px 60px;
+  margin-left: 7%;
+  background-image: linear-gradient(90deg, rgb(19, 47, 75) 0%, rgb(15, 39, 63) 20%, rgb(6, 21, 36) 100%);
+  color: white;
+  transform: translateY(-50%) translateX(5%);
+  align-items: center;
+  justify-content: center;
+  border: dotted;
+  font-family: "monoton";
+}
+.landingpage .content p {
+  color: white;
+  font-size: 2rem;
+  font-family: "Sacramento";
+  transform: translateY(-130%) translateX(-50%);
+}
+.landingpage .content .bouq {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  transform: rotate(-25deg) translateY(-220%) translateX(100%);
+}
+
+.wishes {
+  background-color: white;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 5px solid rgb(15, 39, 63);
+  font-family: "Poppins";
+  border-style: dashed;
+}
+.wishes span {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.wishes span img {
+  width: 3rem;
+}
+
+.title {
+  font-size: 3rem;
+  width: 90%;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  letter-spacing: 0.03cm;
+  font-family: "Sacramento", sans-serif;
+}
+
+.gallery {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.gallery img {
+  width: 45%;
+  box-sizing: border-box;
+  border: 10px solid white;
+}/*# sourceMappingURL=style.css.map */
